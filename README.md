@@ -14,6 +14,8 @@ Using a port scanner, I would like to get information about any defenses present
 - Then I have to remember how to write python, it has been a little while since I have had to usee python at all.
 - And I also have to figure out what the hell a port scanner is and how to build one.
   So, I figure starting with a simple scan of all ports makes sense. 0-65535, one by one. But, how do I actually ping/connect to a port, and what does that even mean to do that?
+- Okay, so I wrote down a bunch of stuff in the README that helps me understand what the heck a port scanner is. Time to actually write some code.
+- Was able to write most of the logic for creating a vanilla scan, but for some reason I am having some trouble creating the connection with the socket.
 
 ## The Questions
 
