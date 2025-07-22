@@ -16,6 +16,7 @@ Using a port scanner, I would like to get information about any defenses present
   So, I figure starting with a simple scan of all ports makes sense. 0-65535, one by one. But, how do I actually ping/connect to a port, and what does that even mean to do that?
 - Okay, so I wrote down a bunch of stuff in the README that helps me understand what the heck a port scanner is. Time to actually write some code.
 - Was able to write most of the logic for creating a vanilla scan, but for some reason I am having some trouble creating the connection with the socket.
+- Back at it today and this time with Chatty. Looks like that issue was not an issue but a misunderstanding. Looks like that means the port is filtered or unresponsive. Additionally, using setdefaulttimeout only works for sockets created after that, so that caused me to not auto-timeout properly.
 
 ## The Questions
 
