@@ -17,6 +17,7 @@ Using a port scanner, I would like to get information about any defenses present
 - Okay, so I wrote down a bunch of stuff in the README that helps me understand what the heck a port scanner is. Time to actually write some code.
 - Was able to write most of the logic for creating a vanilla scan, but for some reason I am having some trouble creating the connection with the socket.
 - Back at it today and this time with Chatty. Looks like that issue was not an issue but a misunderstanding. Looks like that means the port is filtered or unresponsive. Additionally, using setdefaulttimeout only works for sockets created after that, so that caused me to not auto-timeout properly.
+- After some more tweaking and refactoring, I am pretty happy with the vanilla port scanner I made! It will do an extremely basic scan of preselected common ports on whatever IP I have in the code.
 
 ## The Questions
 
